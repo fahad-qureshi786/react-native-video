@@ -60,3 +60,5 @@ android/buildOutput_*
 lib/
 !src/lib
 *.tsbuildinfo
+temp_auto_push.bat
+temp_interactive_push.bat
