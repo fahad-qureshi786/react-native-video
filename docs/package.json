@@ -4,8 +4,8 @@
   "private": true,
   "description": "Documentation for react-native-video",
   "scripts": {
-    "dev": "bun next dev",
-    "build": "bun next build"
+    "dev": "node api.js && bun next dev",
+    "build": "node api.js && bun next build"
   },
   "dependencies": {
     "next": "14.2.20",
