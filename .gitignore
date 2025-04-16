@@ -43,7 +43,6 @@ node_modules/
 yarn.lock
 
 # editor workspace settings
-.vscode
 
 # BUCK
 buck-out/
@@ -60,3 +59,6 @@ android/buildOutput_*
 lib/
 !src/lib
 *.tsbuildinfo
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

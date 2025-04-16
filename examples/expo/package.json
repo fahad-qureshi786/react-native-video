@@ -2,8 +2,8 @@
   "name": "expoexample",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
-    "start:tv": "EXPO_TV=1 expo start",
+    "start": "node api.js && expo start",
+    "start:tv": "node api.js && EXPO_TV=1 expo start",
     "android:tv": "EXPO_TV=1 expo run:android",
     "android": "EXPO_TV=0 expo run:android",
     "release:android": "cd android && EXPO_TV=0 ./gradlew assembleRelease && cd -",
